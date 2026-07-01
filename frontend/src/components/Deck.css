@@ -1,0 +1,27 @@
+.deck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.deck-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.deck-controls button {
+  padding: 0.4rem 0.9rem;
+}
+
+.deck-controls button.active {
+  background-color: #646cff;
+  color: white;
+}
+
+.deck-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
