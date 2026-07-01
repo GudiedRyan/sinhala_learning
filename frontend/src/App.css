@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+.error {
+  color: #ff6b6b;
+}
