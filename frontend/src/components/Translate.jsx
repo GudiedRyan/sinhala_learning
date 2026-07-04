@@ -12,6 +12,7 @@ export default function Translate() {
   const [input, setInput] = useState('')
   const [output, setOutput] = useState('')
   const [pronunciation, setPronunciation] = useState(null)
+  const [inputPronunciation, setInputPronunciation] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
@@ -19,7 +20,8 @@ export default function Translate() {
     setDirection((d) => (d === 'en-si' ? 'si-en' : 'en-si'))
     setInput(output)
     setOutput(input)
-    setPronunciation(null)
+    setPronunciation(inputPronunciation)
+    setInputPronunciation(pronunciation)
     setError(null)
   }
 
@@ -33,6 +35,7 @@ export default function Translate() {
       const result = await translateText(input, direction)
       setOutput(result.translation)
       setPronunciation(result.pronunciation)
+      setInputPronunciation(null)
     } catch (err) {
       setError(err.message)
     } finally {

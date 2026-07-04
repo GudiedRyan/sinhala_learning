@@ -52,3 +52,9 @@
   color: #b3b3b3;
   max-width: 26ch;
 }
+
+.linked-char {
+  font-size: 0.95rem;
+  color: #8a8aff;
+  max-width: 26ch;
+}
