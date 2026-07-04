@@ -59,3 +59,9 @@
   color: #b3b3b3;
   white-space: pre-wrap;
 }
+
+.translate-disclaimer {
+  font-size: 0.8rem;
+  color: #808080;
+  text-align: center;
+}

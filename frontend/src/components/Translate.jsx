@@ -76,6 +76,10 @@ export default function Translate() {
           {pronunciation && <div className="translate-pronunciation">{pronunciation}</div>}
         </div>
       )}
+
+      <p className="translate-disclaimer">
+        Translations are meant for simple sentences and words. Longer, more complex sentences will see a drop off in accuracy, especially with regards to grammar.
+      </p>
     </div>
   )
 }
