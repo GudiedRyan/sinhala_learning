@@ -58,3 +58,9 @@
   color: #8a8aff;
   max-width: 26ch;
 }
+
+.inherent-vowel-note {
+  font-size: 0.85rem;
+  color: #808080;
+  max-width: 26ch;
+}
