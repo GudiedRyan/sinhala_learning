@@ -6,6 +6,16 @@
   padding: 3rem 1rem;
 }
 
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tabs button.active {
+  background-color: #646cff;
+  color: white;
+}
+
 .error {
   color: #ff6b6b;
 }

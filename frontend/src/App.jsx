@@ -1,9 +1,16 @@
 import { useEffect, useState } from 'react'
 import { fetchCards } from './api/cards'
 import Deck from './components/Deck'
+import Translate from './components/Translate'
 import './App.css'
 
+const TABS = [
+  { value: 'flashcards', label: 'Flashcards' },
+  { value: 'translate', label: 'Translate' },
+]
+
 function App() {
+  const [tab, setTab] = useState('flashcards')
   const [cards, setCards] = useState(null)
   const [error, setError] = useState(null)
 
@@ -15,10 +22,29 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Sinhala Alphabet Flashcards</h1>
-      {error && <p className="error">Could not load cards: {error}</p>}
-      {!error && !cards && <p>Loading...</p>}
-      {cards && <Deck cards={cards} />}
+      <h1>Sinhala Learning</h1>
+
+      <nav className="tabs">
+        {TABS.map((t) => (
+          <button
+            key={t.value}
+            className={t.value === tab ? 'active' : ''}
+            onClick={() => setTab(t.value)}
+          >
+            {t.label}
+          </button>
+        ))}
+      </nav>
+
+      {tab === 'flashcards' && (
+        <>
+          {error && <p className="error">Could not load cards: {error}</p>}
+          {!error && !cards && <p>Loading...</p>}
+          {cards && <Deck cards={cards} />}
+        </>
+      )}
+
+      {tab === 'translate' && <Translate />}
     </div>
   )
 }

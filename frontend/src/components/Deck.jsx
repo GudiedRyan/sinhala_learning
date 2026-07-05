@@ -6,6 +6,7 @@ const CATEGORIES = [
   { value: 'all', label: 'All' },
   { value: 'consonant', label: 'Consonants' },
   { value: 'vowel', label: 'Vowels' },
+  { value: 'mahaprana', label: 'Mahaprana' },
 ]
 
 function shuffle(array) {
@@ -25,6 +26,11 @@ export default function Deck({ cards }) {
   const deck = useMemo(
     () => (category === 'all' ? baseOrder : baseOrder.filter((c) => c.category === category)),
     [baseOrder, category],
+  )
+
+  const cardsBySortOrder = useMemo(
+    () => Object.fromEntries(cards.map((c) => [c.sort_order, c])),
+    [cards],
   )
 
   function goTo(newIndex) {
@@ -60,7 +66,10 @@ export default function Deck({ cards }) {
         <button onClick={handleShuffle}>Shuffle</button>
       </div>
 
-      <Flashcard card={deck[index % deck.length]} />
+      <Flashcard
+        card={deck[index % deck.length]}
+        linkedCard={cardsBySortOrder[deck[index % deck.length].linked_char]}
+      />
 
       <div className="deck-nav">
         <button onClick={() => goTo(index - 1)}>Prev</button>

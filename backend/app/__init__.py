@@ -18,8 +18,10 @@ def create_app():
     db.init_app(app)
 
     from app.routes import bp as cards_bp
+    from app.translate_routes import bp as translate_bp
 
     app.register_blueprint(cards_bp)
+    app.register_blueprint(translate_bp)
 
     with app.app_context():
         db.create_all()
