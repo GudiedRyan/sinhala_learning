@@ -17,6 +17,11 @@ export default function Flashcard({ card, linkedCard }) {
         <div className="flashcard-face flashcard-back">
           <span className="romanization">{card.romanization}</span>
           <span className="sound-description">{card.sound_description}</span>
+          {card.category !== 'vowel' && (
+            <span className="inherent-vowel-note">
+              Carries a built-in "uh" sound combined with the consonant, unless followed by another vowel sign.
+            </span>
+          )}
           {linkedCard && (
             <span className="linked-char">
               Aspirated version of {linkedCard.sinhala_char} ({linkedCard.romanization})
