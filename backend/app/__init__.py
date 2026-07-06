@@ -19,14 +19,17 @@ def create_app():
 
     from app.routes import bp as cards_bp
     from app.translate_routes import bp as translate_bp
+    from app.phrase_routes import bp as phrases_bp
 
     app.register_blueprint(cards_bp)
     app.register_blueprint(translate_bp)
+    app.register_blueprint(phrases_bp)
 
     with app.app_context():
         db.create_all()
-        from app.seed_data import seed_if_empty
+        from app.seed_data import seed_if_empty, seed_phrases_if_empty
 
         seed_if_empty()
+        seed_phrases_if_empty()
 
     return app

@@ -1,0 +1,18 @@
+[
+  {
+    "sinhala": "ආයුබෝවන්",
+    "romanization": "āyubōvan",
+    "english": "Hello / greetings",
+    "category": "greetings",
+    "tags": "hello,greeting,hi",
+    "sort_order": 1
+  },
+  {
+    "sinhala": "බස් එක කොහෙද?",
+    "romanization": "bas eka kohēda?",
+    "english": "Where is the bus?",
+    "category": "transportation",
+    "tags": "bus,transportation,travel,directions",
+    "sort_order": 2
+  }
+]

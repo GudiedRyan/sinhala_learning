@@ -1,0 +1,78 @@
+.phrasebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.phrasebook-search {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: inherit;
+  padding: 0.7rem 0.9rem;
+  font: inherit;
+}
+
+.phrasebook-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.phrasebook-controls button {
+  padding: 0.4rem 0.9rem;
+  text-transform: capitalize;
+}
+
+.phrasebook-controls button.active {
+  background-color: #646cff;
+  color: white;
+}
+
+.phrasebook-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.phrasebook-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  padding: 0.9rem 1.1rem;
+  text-align: left;
+}
+
+.phrasebook-sinhala-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.phrasebook-sinhala {
+  font-size: 1.4rem;
+}
+
+.phrasebook-romanization {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.phrasebook-english {
+  font-size: 1.1rem;
+  text-align: right;
+  max-width: 40%;
+}

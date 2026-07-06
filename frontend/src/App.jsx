@@ -2,11 +2,13 @@ import { useEffect, useState } from 'react'
 import { fetchCards } from './api/cards'
 import Deck from './components/Deck'
 import Translate from './components/Translate'
+import Phrasebook from './components/Phrasebook'
 import './App.css'
 
 const TABS = [
   { value: 'flashcards', label: 'Flashcards' },
   { value: 'translate', label: 'Translate' },
+  { value: 'phrases', label: 'Phrases' },
 ]
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
       )}
 
       {tab === 'translate' && <Translate />}
+
+      {tab === 'phrases' && <Phrasebook />}
     </div>
   )
 }

@@ -22,3 +22,26 @@ class Card(db.Model):
             "linked_char": self.linked_char,
             "sort_order": self.sort_order,
         }
+
+
+class Phrase(db.Model):
+    __tablename__ = "phrases"
+
+    id = db.Column(db.Integer, primary_key=True)
+    sinhala = db.Column(db.String(256), nullable=False)
+    romanization = db.Column(db.String(256), nullable=False)
+    english = db.Column(db.String(256), nullable=False)
+    category = db.Column(db.String(32), nullable=False)
+    tags = db.Column(db.String(256), nullable=False, default="")
+    sort_order = db.Column(db.Integer, nullable=False)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "sinhala": self.sinhala,
+            "romanization": self.romanization,
+            "english": self.english,
+            "category": self.category,
+            "tags": [t.strip() for t in self.tags.split(",") if t.strip()],
+            "sort_order": self.sort_order,
+        }
