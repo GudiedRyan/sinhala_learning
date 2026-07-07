@@ -1,5 +1,7 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { translateText } from '../api/translate'
+import SinhalaKeyboard from './SinhalaKeyboard'
+import { insertAtCursor, backspaceAtCursor } from '../utils/textInsertion'
 import './Translate.css'
 
 const DIRECTIONS = {
@@ -15,6 +17,34 @@ export default function Translate() {
   const [inputPronunciation, setInputPronunciation] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
+  const textareaRef = useRef(null)
+
+  function setCaret(position) {
+    requestAnimationFrame(() => {
+      const el = textareaRef.current
+      if (!el) return
+      el.focus()
+      el.setSelectionRange(position, position)
+    })
+  }
+
+  function handleKeyPress(char) {
+    const el = textareaRef.current
+    const start = el ? el.selectionStart : input.length
+    const end = el ? el.selectionEnd : input.length
+    const result = insertAtCursor(input, start, end, char)
+    setInput(result.value)
+    setCaret(result.cursor)
+  }
+
+  function handleBackspace() {
+    const el = textareaRef.current
+    const start = el ? el.selectionStart : input.length
+    const end = el ? el.selectionEnd : input.length
+    const result = backspaceAtCursor(input, start, end)
+    setInput(result.value)
+    setCaret(result.cursor)
+  }
 
   function swapDirection() {
     setDirection((d) => (d === 'en-si' ? 'si-en' : 'en-si'))
@@ -54,6 +84,7 @@ export default function Translate() {
 
       <form onSubmit={handleTranslate} className="translate-form">
         <textarea
+          ref={textareaRef}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder={DIRECTIONS[direction].placeholder}
@@ -63,6 +94,10 @@ export default function Translate() {
           {loading ? 'Translating…' : 'Translate'}
         </button>
       </form>
+
+      {direction === 'si-en' && (
+        <SinhalaKeyboard onKeyPress={handleKeyPress} onBackspace={handleBackspace} />
+      )}
 
       {loading && (
         <p className="translate-hint">

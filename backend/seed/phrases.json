@@ -14,5 +14,1285 @@
     "category": "transportation",
     "tags": "bus,transportation,travel,directions",
     "sort_order": 2
+  },
+  {
+    "sinhala": "සුබ උදෑසනක්",
+    "romanization": "suba udǣsanak",
+    "english": "Good morning",
+    "category": "greetings",
+    "tags": "good morning,morning,greeting",
+    "sort_order": 3
+  },
+  {
+    "sinhala": "සුබ රාත්‍රියක්",
+    "romanization": "suba rātriyak",
+    "english": "Good night",
+    "category": "greetings",
+    "tags": "good night,night,greeting",
+    "sort_order": 4
+  },
+  {
+    "sinhala": "ගිහින් එන්නම්",
+    "romanization": "gihin ennam",
+    "english": "Bye (see you soon)",
+    "category": "greetings",
+    "tags": "goodbye,bye,farewell,greeting",
+    "sort_order": 5
+  },
+  {
+    "sinhala": "කොහොමද?",
+    "romanization": "kohomada?",
+    "english": "How are you? / How's it going?",
+    "category": "conversation",
+    "tags": "how are you,greeting,casual",
+    "sort_order": 6
+  },
+  {
+    "sinhala": "මම හොඳින් ඉන්නවා",
+    "romanization": "mama hondin innawā",
+    "english": "I'm fine",
+    "category": "conversation",
+    "tags": "fine,good,response,how are you",
+    "sort_order": 7
+  },
+  {
+    "sinhala": "ඔයාගේ නම මොකක්ද?",
+    "romanization": "oyāgē nama mokakda?",
+    "english": "What is your name?",
+    "category": "conversation",
+    "tags": "name,introduction,question",
+    "sort_order": 8
+  },
+  {
+    "sinhala": "මගේ නම ___",
+    "romanization": "magē nama ___",
+    "english": "My name is ___",
+    "category": "conversation",
+    "tags": "name,introduction",
+    "sort_order": 9
+  },
+  {
+    "sinhala": "ඔයාව හම්බෙලා සතුටුයි",
+    "romanization": "oyāva hambelā satutui",
+    "english": "Nice to meet you",
+    "category": "conversation",
+    "tags": "nice to meet you,introduction,greeting",
+    "sort_order": 10
+  },
+  {
+    "sinhala": "කරුණාකර",
+    "romanization": "karuṇākara",
+    "english": "Please",
+    "category": "courtesy",
+    "tags": "please,courtesy,polite",
+    "sort_order": 11
+  },
+  {
+    "sinhala": "ස්තුතියි",
+    "romanization": "stutiyi",
+    "english": "Thank you",
+    "category": "courtesy",
+    "tags": "thank you,thanks,courtesy,polite",
+    "sort_order": 12
+  },
+  {
+    "sinhala": "කමක් නෑ",
+    "romanization": "kamak nǣ",
+    "english": "You're welcome / No problem",
+    "category": "courtesy",
+    "tags": "you're welcome,welcome,no problem,courtesy,polite",
+    "sort_order": 13
+  },
+  {
+    "sinhala": "සමාවෙන්න",
+    "romanization": "samāvenna",
+    "english": "Sorry / Excuse me",
+    "category": "courtesy",
+    "tags": "sorry,excuse me,apology,courtesy",
+    "sort_order": 14
+  },
+  {
+    "sinhala": "ඔව්",
+    "romanization": "ov",
+    "english": "Yes",
+    "category": "basics",
+    "tags": "yes,basics",
+    "sort_order": 15
+  },
+  {
+    "sinhala": "නෑ",
+    "romanization": "nǣ",
+    "english": "No",
+    "category": "basics",
+    "tags": "no,basics",
+    "sort_order": 16
+  },
+  {
+    "sinhala": "ඔයා ඉංග්‍රීසි කතා කරනවද?",
+    "romanization": "oyā iṅgrīsi katā karanavada?",
+    "english": "Do you speak English?",
+    "category": "conversation",
+    "tags": "english,language,question",
+    "sort_order": 17
+  },
+  {
+    "sinhala": "මට තේරෙන්නෑ",
+    "romanization": "maṭa tērennǣ",
+    "english": "I don't understand",
+    "category": "conversation",
+    "tags": "understand,help,confusion",
+    "sort_order": 18
+  },
+  {
+    "sinhala": "ඔයාට මට උදව් කරන්න පුළුවන්ද?",
+    "romanization": "oyāṭa maṭa udav karanna puḷuvanda?",
+    "english": "Can you help me?",
+    "category": "conversation",
+    "tags": "help,assistance,question",
+    "sort_order": 19
+  },
+  {
+    "sinhala": "ගාන කීයද?",
+    "romanization": "gāna kīyada?",
+    "english": "How much does this cost?",
+    "category": "shopping",
+    "tags": "price,cost,shopping,market",
+    "sort_order": 20
+  },
+  {
+    "sinhala": "ගාන ගොඩක් වැඩියි",
+    "romanization": "gāna godak vædiyi",
+    "english": "It's too expensive",
+    "category": "shopping",
+    "tags": "expensive,price,shopping",
+    "sort_order": 21
+  },
+  {
+    "sinhala": "ටිකක් අඩු කරන්න පුළුවන්ද?",
+    "romanization": "ṭikak aḍu karanna puḷuvanda?",
+    "english": "Can you lower the price?",
+    "category": "shopping",
+    "tags": "discount,bargain,price,shopping",
+    "sort_order": 22
+  },
+  {
+    "sinhala": "මට මේක ගන්න ඕන",
+    "romanization": "maṭa mēka ganna ōna",
+    "english": "I want to buy this",
+    "category": "shopping",
+    "tags": "buy,shopping,market",
+    "sort_order": 23
+  },
+  {
+    "sinhala": "මේක වෙන සයිස් එකකින් තියෙනවද?",
+    "romanization": "mēka vena sayis ekakin thiyenavada?",
+    "english": "Do you have this in a different size?",
+    "category": "shopping",
+    "tags": "size,shopping,clothes,market",
+    "sort_order": 24
+  },
+  {
+    "sinhala": "මට ගෙවන්න පුළුවන් කොහෙද?",
+    "romanization": "maṭa gevanna puḷuvan kohēda?",
+    "english": "Where can I pay?",
+    "category": "shopping",
+    "tags": "pay,payment,shopping,market",
+    "sort_order": 25
+  },
+  {
+    "sinhala": "කාඩ් පත් පිළිගන්නවද?",
+    "romanization": "kāḍ pat piḷigannavada?",
+    "english": "Do you accept cards?",
+    "category": "shopping",
+    "tags": "card,payment,shopping,market",
+    "sort_order": 26
+  },
+  {
+    "sinhala": "මම බලනවා විතරයි",
+    "romanization": "mama balanavā vitarai",
+    "english": "I'm just looking",
+    "category": "shopping",
+    "tags": "browsing,shopping,market",
+    "sort_order": 27
+  },
+  {
+    "sinhala": "දුම්රිය පොළට යන්නේ කොහොමද?",
+    "romanization": "dumriya poḷaṭa yannē kohomada?",
+    "english": "How do I get to the train station?",
+    "category": "directions",
+    "tags": "directions,train,station,travel",
+    "sort_order": 28
+  },
+  {
+    "sinhala": "වමට හැරෙන්න",
+    "romanization": "vamaṭa hærenna",
+    "english": "Turn left",
+    "category": "directions",
+    "tags": "directions,turn,left",
+    "sort_order": 29
+  },
+  {
+    "sinhala": "දකුණට හැරෙන්න",
+    "romanization": "dakuṇaṭa hærenna",
+    "english": "Turn right",
+    "category": "directions",
+    "tags": "directions,turn,right",
+    "sort_order": 30
+  },
+  {
+    "sinhala": "කෙළින්ම යන්න",
+    "romanization": "keḷinma yanna",
+    "english": "Go straight",
+    "category": "directions",
+    "tags": "directions,straight",
+    "sort_order": 31
+  },
+  {
+    "sinhala": "මෙතනින් දුරද?",
+    "romanization": "metanin durada?",
+    "english": "Is it far from here?",
+    "category": "directions",
+    "tags": "directions,distance,far",
+    "sort_order": 32
+  },
+  {
+    "sinhala": "මම නැති වෙලා",
+    "romanization": "mama næti velā",
+    "english": "I am lost",
+    "category": "directions",
+    "tags": "directions,lost,help",
+    "sort_order": 33
+  },
+  {
+    "sinhala": "සිතියමේ පෙන්නන්න පුළුවන්ද?",
+    "romanization": "sitiyamē pennanna puḷuvanda?",
+    "english": "Can you show me on the map?",
+    "category": "directions",
+    "tags": "directions,map,help",
+    "sort_order": 34
+  },
+  {
+    "sinhala": "මට දොස්තර කෙනෙක් ඕන",
+    "romanization": "maṭa dostara kenek ōna",
+    "english": "I need a doctor",
+    "category": "medical",
+    "tags": "doctor,medical,emergency,health",
+    "sort_order": 35
+  },
+  {
+    "sinhala": "මට හොඳට දැනෙන්නෑ",
+    "romanization": "maṭa hondaṭa dænennǣ",
+    "english": "I don't feel well",
+    "category": "medical",
+    "tags": "sick,unwell,medical,health",
+    "sort_order": 36
+  },
+  {
+    "sinhala": "මගේ ඔලුව රිද්දනවා",
+    "romanization": "magē oluva riddanavā",
+    "english": "I have a headache",
+    "category": "medical",
+    "tags": "headache,pain,medical,health",
+    "sort_order": 37
+  },
+  {
+    "sinhala": "මගේ බඩ රිද්දනවා",
+    "romanization": "magē baḍa riddanavā",
+    "english": "I have a stomach ache",
+    "category": "medical",
+    "tags": "stomach,pain,medical,health",
+    "sort_order": 38
+  },
+  {
+    "sinhala": "මට උණ තියෙනවා",
+    "romanization": "maṭa uṇa thiyenavā",
+    "english": "I have a fever",
+    "category": "medical",
+    "tags": "fever,sick,medical,health",
+    "sort_order": 39
+  },
+  {
+    "sinhala": "ළඟම රෝහල කොහෙද?",
+    "romanization": "ḷangama rōhala kohēda?",
+    "english": "Where is the nearest hospital?",
+    "category": "medical",
+    "tags": "hospital,medical,emergency,directions",
+    "sort_order": 40
+  },
+  {
+    "sinhala": "ගිලන් රථයක් කතා කරන්න",
+    "romanization": "gilan rathayak katā karanna",
+    "english": "Call an ambulance",
+    "category": "medical",
+    "tags": "ambulance,emergency,medical,help",
+    "sort_order": 41
+  },
+  {
+    "sinhala": "මෙතන රිද්දනවා",
+    "romanization": "metana riddanavā",
+    "english": "It hurts here",
+    "category": "medical",
+    "tags": "pain,hurt,medical,health",
+    "sort_order": 42
+  },
+  {
+    "sinhala": "ගාස්තුව කීයද?",
+    "romanization": "gāstuwa kīyada?",
+    "english": "How much is the fare?",
+    "category": "transportation",
+    "tags": "fare,price,bus,taxi,transportation",
+    "sort_order": 43
+  },
+  {
+    "sinhala": "මේ බස් එක ___ ට යනවද?",
+    "romanization": "mē bas eka ___ ṭa yanavada?",
+    "english": "Does this bus go to ___?",
+    "category": "transportation",
+    "tags": "bus,transportation,directions",
+    "sort_order": 44
+  },
+  {
+    "sinhala": "මට එයාපෝට් එකට යන්න ඕන",
+    "romanization": "maṭa eyāpōṭ ekaṭa yanna ōna",
+    "english": "I want to go to the airport",
+    "category": "transportation",
+    "tags": "airport,transportation,travel",
+    "sort_order": 45
+  },
+  {
+    "sinhala": "මෙතන නවත්වන්න",
+    "romanization": "metana navatvanna",
+    "english": "Stop here please",
+    "category": "transportation",
+    "tags": "stop,taxi,transportation",
+    "sort_order": 46
+  },
+  {
+    "sinhala": "දුම්රිය පොළ කොහෙද?",
+    "romanization": "dumriya poḷa kohēda?",
+    "english": "Where is the train station?",
+    "category": "transportation",
+    "tags": "train,station,transportation,directions",
+    "sort_order": 47
+  },
+  {
+    "sinhala": "ළඟම ටැක්සියක් තියෙනවද?",
+    "romanization": "ḷangama ṭæksiyak thiyenavada?",
+    "english": "Is there a taxi nearby?",
+    "category": "transportation",
+    "tags": "taxi,transportation",
+    "sort_order": 48
+  },
+  {
+    "sinhala": "කොච්චර වෙලාවක් යයිද?",
+    "romanization": "koccara velāvak yayida?",
+    "english": "How long will it take?",
+    "category": "transportation",
+    "tags": "time,duration,transportation,travel",
+    "sort_order": 49
+  },
+  {
+    "sinhala": "මේ මගේ අම්මා",
+    "romanization": "mē magē ammā",
+    "english": "This is my mother",
+    "category": "family",
+    "tags": "mother,family",
+    "sort_order": 50
+  },
+  {
+    "sinhala": "මේ මගේ තාත්තා",
+    "romanization": "mē magē tāttā",
+    "english": "This is my father",
+    "category": "family",
+    "tags": "father,family",
+    "sort_order": 51
+  },
+  {
+    "sinhala": "මේ මගේ අයියා",
+    "romanization": "mē magē ayiyā",
+    "english": "This is my older brother",
+    "category": "family",
+    "tags": "brother,sibling,family",
+    "sort_order": 52
+  },
+  {
+    "sinhala": "මේ මගේ මල්ලි",
+    "romanization": "mē magē malli",
+    "english": "This is my younger brother",
+    "category": "family",
+    "tags": "brother,sibling,family",
+    "sort_order": 53
+  },
+  {
+    "sinhala": "මේ මගේ අක්කා",
+    "romanization": "mē magē akkā",
+    "english": "This is my older sister",
+    "category": "family",
+    "tags": "sister,sibling,family",
+    "sort_order": 54
+  },
+  {
+    "sinhala": "මේ මගේ නංගි",
+    "romanization": "mē magē nangi",
+    "english": "This is my younger sister",
+    "category": "family",
+    "tags": "sister,sibling,family",
+    "sort_order": 55
+  },
+  {
+    "sinhala": "ඔයාට ළමයි ඉන්නවද?",
+    "romanization": "oyāṭa ḷamayi innavada?",
+    "english": "Do you have children?",
+    "category": "family",
+    "tags": "children,kids,family,question",
+    "sort_order": 56
+  },
+  {
+    "sinhala": "මේ මගේ බිරිඳ",
+    "romanization": "mē magē birinda",
+    "english": "This is my wife",
+    "category": "family",
+    "tags": "wife,spouse,family",
+    "sort_order": 57
+  },
+  {
+    "sinhala": "මේ මගේ සැමියා",
+    "romanization": "mē magē sæmiyā",
+    "english": "This is my husband",
+    "category": "family",
+    "tags": "husband,spouse,family",
+    "sort_order": 58
+  },
+  {
+    "sinhala": "ඔයාගේ පවුලේ අය කොහොමද?",
+    "romanization": "oyāgē pavulē aya kohomada?",
+    "english": "How is your family?",
+    "category": "family",
+    "tags": "family,question",
+    "sort_order": 59
+  },
+  {
+    "sinhala": "මේ මගේ යාළුවා",
+    "romanization": "mē magē yāḷuvā",
+    "english": "This is my friend",
+    "category": "friends",
+    "tags": "friend,friends",
+    "sort_order": 60
+  },
+  {
+    "sinhala": "මොහු මගේ හොඳම යාළුවා",
+    "romanization": "mohu magē hondama yāḷuvā",
+    "english": "He/She is my best friend",
+    "category": "friends",
+    "tags": "best friend,friends",
+    "sort_order": 61
+  },
+  {
+    "sinhala": "අපි එකට ඉමු",
+    "romanization": "api ekaṭa imu",
+    "english": "Let's hang out",
+    "category": "friends",
+    "tags": "hang out,friends,casual",
+    "sort_order": 62
+  },
+  {
+    "sinhala": "ඔයා මා එක්ක එනවද?",
+    "romanization": "oyā mā ekka enavada?",
+    "english": "Will you come with me?",
+    "category": "friends",
+    "tags": "friends,question,invite",
+    "sort_order": 63
+  },
+  {
+    "sinhala": "අපි හම්බෙමු",
+    "romanization": "api hambemu",
+    "english": "Let's meet up",
+    "category": "friends",
+    "tags": "meet,friends,casual",
+    "sort_order": 64
+  },
+  {
+    "sinhala": "මට ඔයාව මතක් වෙනවා",
+    "romanization": "maṭa oyāva matak venavā",
+    "english": "I miss you",
+    "category": "friends",
+    "tags": "miss you,friends",
+    "sort_order": 65
+  },
+  {
+    "sinhala": "ඔයා හොඳ යාළුවෙක්",
+    "romanization": "oyā honda yāḷuvek",
+    "english": "You are a good friend",
+    "category": "friends",
+    "tags": "friend,compliment,friends",
+    "sort_order": 66
+  },
+  {
+    "sinhala": "පස්සේ හම්බෙමු",
+    "romanization": "passē hambemu",
+    "english": "See you later",
+    "category": "friends",
+    "tags": "see you later,goodbye,friends,casual",
+    "sort_order": 67
+  },
+  {
+    "sinhala": "ඔයා අද මොනවද කරන්නේ?",
+    "romanization": "oyā ada monavada karannē?",
+    "english": "What are you doing today?",
+    "category": "friends",
+    "tags": "question,friends,casual",
+    "sort_order": 68
+  },
+  {
+    "sinhala": "ගොඩක් කාලෙකින් හම්බුනේ",
+    "romanization": "godak kālekin hambunē",
+    "english": "Long time no see",
+    "category": "friends",
+    "tags": "long time no see,friends,greeting",
+    "sort_order": 69
+  },
+  {
+    "sinhala": "මට මේක ඕන",
+    "romanization": "maṭa mēka ōna",
+    "english": "I would like this",
+    "category": "food",
+    "tags": "order,want,food,restaurant",
+    "sort_order": 70
+  },
+  {
+    "sinhala": "මොකක්ද හොඳම කෑම?",
+    "romanization": "mokakda hondama kǣma?",
+    "english": "What do you recommend?",
+    "category": "food",
+    "tags": "recommend,menu,food,restaurant",
+    "sort_order": 71
+  },
+  {
+    "sinhala": "බිල ගේන්න",
+    "romanization": "bila genna",
+    "english": "The bill, please",
+    "category": "food",
+    "tags": "bill,pay,restaurant",
+    "sort_order": 72
+  },
+  {
+    "sinhala": "මම නිර්මාංශයි",
+    "romanization": "mama nirmānśayi",
+    "english": "I'm vegetarian",
+    "category": "food",
+    "tags": "vegetarian,diet,food,restaurant",
+    "sort_order": 73
+  },
+  {
+    "sinhala": "මේක රසයි",
+    "romanization": "mēka rasai",
+    "english": "This is delicious",
+    "category": "food",
+    "tags": "delicious,tasty,food",
+    "sort_order": 74
+  },
+  {
+    "sinhala": "මෙනුව ගේන්න පුළුවන්ද?",
+    "romanization": "menuwa genna puḷuvanda?",
+    "english": "Can I have the menu?",
+    "category": "food",
+    "tags": "menu,restaurant",
+    "sort_order": 75
+  },
+  {
+    "sinhala": "මට රටකජු වලට ආසාත්මිකතාවයක් තියෙනවා",
+    "romanization": "maṭa raṭakaju valaṭa āsātmikatāvayak thiyenavā",
+    "english": "I'm allergic to peanuts",
+    "category": "food",
+    "tags": "allergy,peanuts,food,health",
+    "sort_order": 76
+  },
+  {
+    "sinhala": "වතුර ටිකක් දෙන්න",
+    "romanization": "vatura ṭikak denna",
+    "english": "Water, please",
+    "category": "food",
+    "tags": "water,drink,restaurant",
+    "sort_order": 77
+  },
+  {
+    "sinhala": "මට බඩගිනියි",
+    "romanization": "maṭa baḍaginiyi",
+    "english": "I'm hungry",
+    "category": "food",
+    "tags": "hungry,food",
+    "sort_order": 78
+  },
+  {
+    "sinhala": "මට බඩ පිරුණා",
+    "romanization": "maṭa baḍa piruṇā",
+    "english": "I'm full",
+    "category": "food",
+    "tags": "full,food",
+    "sort_order": 79
+  },
+  {
+    "sinhala": "මට මේක අරගෙන යන්න පුළුවන්ද?",
+    "romanization": "maṭa mēka aragena yanna puḷuvanda?",
+    "english": "Can I get this to go?",
+    "category": "food",
+    "tags": "takeaway,togo,food,restaurant",
+    "sort_order": 80
+  },
+  {
+    "sinhala": "මේක සැරද?",
+    "romanization": "mēka særada?",
+    "english": "Is this spicy?",
+    "category": "food",
+    "tags": "spicy,food,restaurant",
+    "sort_order": 81
+  },
+  {
+    "sinhala": "දැන් වේලාව කීයද?",
+    "romanization": "dæn velāva kīyada?",
+    "english": "What time is it?",
+    "category": "time",
+    "tags": "time,clock,question,hour",
+    "sort_order": 82
+  },
+  {
+    "sinhala": "අද",
+    "romanization": "ada",
+    "english": "Today",
+    "category": "time",
+    "tags": "today,date,time,day",
+    "sort_order": 83
+  },
+  {
+    "sinhala": "හෙට",
+    "romanization": "heta",
+    "english": "Tomorrow",
+    "category": "time",
+    "tags": "tomorrow,date,time,day",
+    "sort_order": 84
+  },
+  {
+    "sinhala": "ඊයේ",
+    "romanization": "iyē",
+    "english": "Yesterday",
+    "category": "time",
+    "tags": "yesterday,date,time,day",
+    "sort_order": 85
+  },
+  {
+    "sinhala": "දැන්",
+    "romanization": "dæn",
+    "english": "Now",
+    "category": "time",
+    "tags": "now,time",
+    "sort_order": 86
+  },
+  {
+    "sinhala": "පස්සේ",
+    "romanization": "passē",
+    "english": "Later",
+    "category": "time",
+    "tags": "later,afterwards,time",
+    "sort_order": 87
+  },
+  {
+    "sinhala": "උදේ",
+    "romanization": "udē",
+    "english": "Morning",
+    "category": "time",
+    "tags": "morning,time,day",
+    "sort_order": 88
+  },
+  {
+    "sinhala": "දවල්",
+    "romanization": "daval",
+    "english": "Afternoon",
+    "category": "time",
+    "tags": "afternoon,time,day",
+    "sort_order": 89
+  },
+  {
+    "sinhala": "හවස",
+    "romanization": "havasa",
+    "english": "Evening",
+    "category": "time",
+    "tags": "evening,time,day",
+    "sort_order": 90
+  },
+  {
+    "sinhala": "රෑ",
+    "romanization": "rǣ",
+    "english": "Night",
+    "category": "time",
+    "tags": "night,time,day",
+    "sort_order": 91
+  },
+  {
+    "sinhala": "ඔයා එන්නේ කීයටද?",
+    "romanization": "oyā ennē kīyaṭada?",
+    "english": "What time will you come?",
+    "category": "time",
+    "tags": "time,question,arrival,clock",
+    "sort_order": 92
+  },
+  {
+    "sinhala": "මම හතරට එනවා",
+    "romanization": "mama hataraṭa enavā",
+    "english": "I'll come at four o'clock",
+    "category": "time",
+    "tags": "time,arrival,clock,schedule",
+    "sort_order": 93
+  },
+  {
+    "sinhala": "සතිය",
+    "romanization": "sathiya",
+    "english": "Week",
+    "category": "time",
+    "tags": "week,date,time",
+    "sort_order": 94
+  },
+  {
+    "sinhala": "මාසය",
+    "romanization": "māsaya",
+    "english": "Month",
+    "category": "time",
+    "tags": "month,date,time",
+    "sort_order": 95
+  },
+  {
+    "sinhala": "අවුරුද්ද",
+    "romanization": "avurudda",
+    "english": "Year",
+    "category": "time",
+    "tags": "year,date,time",
+    "sort_order": 96
+  },
+  {
+    "sinhala": "අද දිනය කීයද?",
+    "romanization": "ada dinaya kīyada?",
+    "english": "What's today's date?",
+    "category": "time",
+    "tags": "date,today,question,time",
+    "sort_order": 97
+  },
+  {
+    "sinhala": "බින්දුව",
+    "romanization": "binduva",
+    "english": "Zero",
+    "category": "numbers",
+    "tags": "number,zero,count,0",
+    "sort_order": 98
+  },
+  {
+    "sinhala": "එක",
+    "romanization": "eka",
+    "english": "One",
+    "category": "numbers",
+    "tags": "number,one,count,1",
+    "sort_order": 99
+  },
+  {
+    "sinhala": "දෙක",
+    "romanization": "deka",
+    "english": "Two",
+    "category": "numbers",
+    "tags": "number,two,count,2",
+    "sort_order": 100
+  },
+  {
+    "sinhala": "තුන",
+    "romanization": "tuna",
+    "english": "Three",
+    "category": "numbers",
+    "tags": "number,three,count,3",
+    "sort_order": 101
+  },
+  {
+    "sinhala": "හතර",
+    "romanization": "hatara",
+    "english": "Four",
+    "category": "numbers",
+    "tags": "number,four,count,4",
+    "sort_order": 102
+  },
+  {
+    "sinhala": "පහ",
+    "romanization": "paha",
+    "english": "Five",
+    "category": "numbers",
+    "tags": "number,five,count,5",
+    "sort_order": 103
+  },
+  {
+    "sinhala": "හය",
+    "romanization": "haya",
+    "english": "Six",
+    "category": "numbers",
+    "tags": "number,six,count,6",
+    "sort_order": 104
+  },
+  {
+    "sinhala": "හත",
+    "romanization": "hata",
+    "english": "Seven",
+    "category": "numbers",
+    "tags": "number,seven,count,7",
+    "sort_order": 105
+  },
+  {
+    "sinhala": "අට",
+    "romanization": "aṭa",
+    "english": "Eight",
+    "category": "numbers",
+    "tags": "number,eight,count,8",
+    "sort_order": 106
+  },
+  {
+    "sinhala": "නවය",
+    "romanization": "navaya",
+    "english": "Nine",
+    "category": "numbers",
+    "tags": "number,nine,count,9",
+    "sort_order": 107
+  },
+  {
+    "sinhala": "දහය",
+    "romanization": "dahaya",
+    "english": "Ten",
+    "category": "numbers",
+    "tags": "number,ten,count,10",
+    "sort_order": 108
+  },
+  {
+    "sinhala": "එකොළහ",
+    "romanization": "ekolaha",
+    "english": "Eleven",
+    "category": "numbers",
+    "tags": "number,eleven,count,11",
+    "sort_order": 109
+  },
+  {
+    "sinhala": "දොළහ",
+    "romanization": "dolaha",
+    "english": "Twelve",
+    "category": "numbers",
+    "tags": "number,twelve,count,12",
+    "sort_order": 110
+  },
+  {
+    "sinhala": "දහතුන",
+    "romanization": "dahatuna",
+    "english": "Thirteen",
+    "category": "numbers",
+    "tags": "number,thirteen,count,13",
+    "sort_order": 111
+  },
+  {
+    "sinhala": "දහහතර",
+    "romanization": "dahahatara",
+    "english": "Fourteen",
+    "category": "numbers",
+    "tags": "number,fourteen,count,14",
+    "sort_order": 112
+  },
+  {
+    "sinhala": "පහළොස",
+    "romanization": "pahalosa",
+    "english": "Fifteen",
+    "category": "numbers",
+    "tags": "number,fifteen,count,15",
+    "sort_order": 113
+  },
+  {
+    "sinhala": "සොළහ",
+    "romanization": "solaha",
+    "english": "Sixteen",
+    "category": "numbers",
+    "tags": "number,sixteen,count,16",
+    "sort_order": 114
+  },
+  {
+    "sinhala": "දහහත",
+    "romanization": "dahahata",
+    "english": "Seventeen",
+    "category": "numbers",
+    "tags": "number,seventeen,count,17",
+    "sort_order": 115
+  },
+  {
+    "sinhala": "දහඅට",
+    "romanization": "dahaata",
+    "english": "Eighteen",
+    "category": "numbers",
+    "tags": "number,eighteen,count,18",
+    "sort_order": 116
+  },
+  {
+    "sinhala": "දහනවය",
+    "romanization": "dahanavaya",
+    "english": "Nineteen",
+    "category": "numbers",
+    "tags": "number,nineteen,count,19",
+    "sort_order": 117
+  },
+  {
+    "sinhala": "විස්ස",
+    "romanization": "vissa",
+    "english": "Twenty",
+    "category": "numbers",
+    "tags": "number,twenty,count,20",
+    "sort_order": 118
+  },
+  {
+    "sinhala": "පනහ",
+    "romanization": "panaha",
+    "english": "Fifty",
+    "category": "numbers",
+    "tags": "number,fifty,count,50",
+    "sort_order": 119
+  },
+  {
+    "sinhala": "සීයය",
+    "romanization": "siyaya",
+    "english": "One hundred",
+    "category": "numbers",
+    "tags": "number,hundred,count,100",
+    "sort_order": 120
+  },
+  {
+    "sinhala": "දාහක්",
+    "romanization": "dāhak",
+    "english": "One thousand",
+    "category": "numbers",
+    "tags": "number,thousand,count,1000",
+    "sort_order": 121
+  },
+  {
+    "sinhala": "බල්ලා",
+    "romanization": "ballā",
+    "english": "Dog",
+    "category": "animals",
+    "tags": "dog,animal,pet",
+    "sort_order": 122
+  },
+  {
+    "sinhala": "බළලා",
+    "romanization": "balalā",
+    "english": "Cat",
+    "category": "animals",
+    "tags": "cat,animal,pet",
+    "sort_order": 123
+  },
+  {
+    "sinhala": "කුරුල්ලා",
+    "romanization": "kurullā",
+    "english": "Bird",
+    "category": "animals",
+    "tags": "bird,animal",
+    "sort_order": 124
+  },
+  {
+    "sinhala": "මාළුවා",
+    "romanization": "māluvā",
+    "english": "Fish",
+    "category": "animals",
+    "tags": "fish,animal",
+    "sort_order": 125
+  },
+  {
+    "sinhala": "ගවයා",
+    "romanization": "gavayā",
+    "english": "Cow",
+    "category": "animals",
+    "tags": "cow,animal",
+    "sort_order": 126
+  },
+  {
+    "sinhala": "අශ්වයා",
+    "romanization": "aśvayā",
+    "english": "Horse",
+    "category": "animals",
+    "tags": "horse,animal",
+    "sort_order": 127
+  },
+  {
+    "sinhala": "කුකුළා",
+    "romanization": "kukuḷā",
+    "english": "Chicken",
+    "category": "animals",
+    "tags": "chicken,rooster,animal",
+    "sort_order": 128
+  },
+  {
+    "sinhala": "හාවා",
+    "romanization": "hāvā",
+    "english": "Rabbit",
+    "category": "animals",
+    "tags": "rabbit,animal",
+    "sort_order": 129
+  },
+  {
+    "sinhala": "අලියා",
+    "romanization": "aliyā",
+    "english": "Elephant",
+    "category": "animals",
+    "tags": "elephant,animal",
+    "sort_order": 130
+  },
+  {
+    "sinhala": "වඳුරා",
+    "romanization": "vaduvā",
+    "english": "Monkey",
+    "category": "animals",
+    "tags": "monkey,animal",
+    "sort_order": 131
+  },
+  {
+    "sinhala": "ඌරා",
+    "romanization": "ūrā",
+    "english": "Pig",
+    "category": "animals",
+    "tags": "pig,animal",
+    "sort_order": 132
+  },
+  {
+    "sinhala": "සර්පයා",
+    "romanization": "sarpayā",
+    "english": "Snake",
+    "category": "animals",
+    "tags": "snake,animal",
+    "sort_order": 133
+  },
+  {
+    "sinhala": "එළුවා",
+    "romanization": "eḷuvā",
+    "english": "Goat",
+    "category": "animals",
+    "tags": "goat,animal",
+    "sort_order": 134
+  },
+  {
+    "sinhala": "ඔයාට සුරතලෙක් ඉන්නවද?",
+    "romanization": "oyāṭa suratalek innavada?",
+    "english": "Do you have a pet?",
+    "category": "animals",
+    "tags": "pet,question,animal",
+    "sort_order": 135
+  },
+  {
+    "sinhala": "මේක මගේ සුරතලා",
+    "romanization": "mēka magē suratalā",
+    "english": "This is my pet",
+    "category": "animals",
+    "tags": "pet,animal",
+    "sort_order": 136
+  },
+  {
+    "sinhala": "මගේ බල්ලාගේ නම ___",
+    "romanization": "magē ballāgē nama ___",
+    "english": "My dog's name is ___",
+    "category": "animals",
+    "tags": "dog,pet,name",
+    "sort_order": 137
+  },
+  {
+    "sinhala": "මම බළලුන්ට කැමතියි",
+    "romanization": "mama balalunṭa kæmatiyi",
+    "english": "I like cats",
+    "category": "animals",
+    "tags": "cat,pet,like",
+    "sort_order": 138
+  },
+  {
+    "sinhala": "පරිස්සම් වෙන්න, බල්ලා කනවා",
+    "romanization": "parissam venna, ballā kanavā",
+    "english": "Be careful, the dog bites",
+    "category": "animals",
+    "tags": "dog,warning,pet",
+    "sort_order": 139
+  },
+  {
+    "sinhala": "රතු",
+    "romanization": "rathu",
+    "english": "Red",
+    "category": "colors",
+    "tags": "color,red",
+    "sort_order": 140
+  },
+  {
+    "sinhala": "නිල්",
+    "romanization": "nil",
+    "english": "Blue",
+    "category": "colors",
+    "tags": "color,blue",
+    "sort_order": 141
+  },
+  {
+    "sinhala": "කහ",
+    "romanization": "kaha",
+    "english": "Yellow",
+    "category": "colors",
+    "tags": "color,yellow",
+    "sort_order": 142
+  },
+  {
+    "sinhala": "කොළ",
+    "romanization": "kola",
+    "english": "Green",
+    "category": "colors",
+    "tags": "color,green",
+    "sort_order": 143
+  },
+  {
+    "sinhala": "සුදු",
+    "romanization": "sudu",
+    "english": "White",
+    "category": "colors",
+    "tags": "color,white",
+    "sort_order": 144
+  },
+  {
+    "sinhala": "කලු",
+    "romanization": "kalu",
+    "english": "Black",
+    "category": "colors",
+    "tags": "color,black",
+    "sort_order": 145
+  },
+  {
+    "sinhala": "දුඹුරු",
+    "romanization": "dumburu",
+    "english": "Brown",
+    "category": "colors",
+    "tags": "color,brown",
+    "sort_order": 146
+  },
+  {
+    "sinhala": "අළු",
+    "romanization": "alu",
+    "english": "Grey",
+    "category": "colors",
+    "tags": "color,grey,gray",
+    "sort_order": 147
+  },
+  {
+    "sinhala": "තැඹිලි",
+    "romanization": "thæmbili",
+    "english": "Orange",
+    "category": "colors",
+    "tags": "color,orange",
+    "sort_order": 148
+  },
+  {
+    "sinhala": "දම්",
+    "romanization": "dam",
+    "english": "Purple",
+    "category": "colors",
+    "tags": "color,purple,violet",
+    "sort_order": 149
+  },
+  {
+    "sinhala": "රෝස",
+    "romanization": "rōsa",
+    "english": "Pink",
+    "category": "colors",
+    "tags": "color,pink",
+    "sort_order": 150
+  },
+  {
+    "sinhala": "මේකේ පාට මොකක්ද?",
+    "romanization": "mēkē pāṭa mokakda?",
+    "english": "What color is this?",
+    "category": "colors",
+    "tags": "color,question",
+    "sort_order": 151
+  },
+  {
+    "sinhala": "මම නිල් පාටට කැමතියි",
+    "romanization": "mama nil pāṭaṭa kæmatiyi",
+    "english": "I like blue",
+    "category": "colors",
+    "tags": "color,blue,like",
+    "sort_order": 152
+  },
+  {
+    "sinhala": "කවුද",
+    "romanization": "kavuda",
+    "english": "Who",
+    "category": "questions",
+    "tags": "who,question,questionword",
+    "sort_order": 153
+  },
+  {
+    "sinhala": "ඒ කවුද?",
+    "romanization": "ē kavuda?",
+    "english": "Who is that?",
+    "category": "questions",
+    "tags": "who,question",
+    "sort_order": 154
+  },
+  {
+    "sinhala": "මොකක්ද",
+    "romanization": "mokakda",
+    "english": "What",
+    "category": "questions",
+    "tags": "what,question,questionword",
+    "sort_order": 155
+  },
+  {
+    "sinhala": "ඒක මොකක්ද?",
+    "romanization": "ēka mokakda?",
+    "english": "What is that?",
+    "category": "questions",
+    "tags": "what,question",
+    "sort_order": 156
+  },
+  {
+    "sinhala": "කොහොමද",
+    "romanization": "kohomada",
+    "english": "How",
+    "category": "questions",
+    "tags": "how,question,questionword",
+    "sort_order": 157
+  },
+  {
+    "sinhala": "මේක කොහොමද කරන්නේ?",
+    "romanization": "mēka kohomada karannē?",
+    "english": "How do you do this?",
+    "category": "questions",
+    "tags": "how,question",
+    "sort_order": 158
+  },
+  {
+    "sinhala": "ඇයි",
+    "romanization": "æyi",
+    "english": "Why",
+    "category": "questions",
+    "tags": "why,question,questionword",
+    "sort_order": 159
+  },
+  {
+    "sinhala": "ඇයි ඒක?",
+    "romanization": "æyi ēka?",
+    "english": "Why is that?",
+    "category": "questions",
+    "tags": "why,question",
+    "sort_order": 160
+  },
+  {
+    "sinhala": "කවදාද",
+    "romanization": "kavadāda",
+    "english": "When",
+    "category": "questions",
+    "tags": "when,question,questionword",
+    "sort_order": 161
+  },
+  {
+    "sinhala": "ඔයා එන්නේ කවදාද?",
+    "romanization": "oyā ennē kavadāda?",
+    "english": "When will you come?",
+    "category": "questions",
+    "tags": "when,question,arrival",
+    "sort_order": 162
   }
 ]

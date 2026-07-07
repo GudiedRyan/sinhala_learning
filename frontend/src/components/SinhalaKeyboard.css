@@ -1,0 +1,60 @@
+.sinhala-keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  padding: 0.75rem;
+}
+
+.sinhala-keyboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.sinhala-key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 8px;
+  border: 1px solid #3a3a3a;
+  background: #2a2a2a;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.sinhala-key:hover {
+  border-color: #646cff;
+}
+
+.sinhala-key-char {
+  font-size: 1.2rem;
+}
+
+.sinhala-key-label {
+  font-size: 0.6rem;
+  color: #b3b3b3;
+}
+
+.sinhala-keyboard-utility-row {
+  justify-content: center;
+}
+
+.sinhala-key-space {
+  min-width: 8rem;
+  font-size: 0.85rem;
+  color: #b3b3b3;
+}
+
+.sinhala-key-backspace {
+  min-width: 3rem;
+  font-size: 1.1rem;
+}
