@@ -1294,5 +1294,437 @@
     "category": "questions",
     "tags": "when,question,arrival",
     "sort_order": 162
+  },
+  {
+    "sinhala": "උදව් කරන්න!",
+    "romanization": "udav karanna!",
+    "english": "Help!",
+    "category": "emergency",
+    "tags": "help,emergency,danger",
+    "sort_order": 163
+  },
+  {
+    "sinhala": "පොලීසියට කතා කරන්න",
+    "romanization": "polīsiyaṭa katā karanna",
+    "english": "Call the police",
+    "category": "emergency",
+    "tags": "police,emergency,call",
+    "sort_order": 164
+  },
+  {
+    "sinhala": "මට දොස්තර කෙනෙක් ඕන",
+    "romanization": "maṭa dostara kenek ōna",
+    "english": "I need a doctor",
+    "category": "emergency",
+    "tags": "doctor,emergency,medical",
+    "sort_order": 165
+  },
+  {
+    "sinhala": "ගිලන් රථයක් ගෙන්වන්න",
+    "romanization": "gilan rathayak genvanna",
+    "english": "Call an ambulance",
+    "category": "emergency",
+    "tags": "ambulance,emergency,medical",
+    "sort_order": 166
+  },
+  {
+    "sinhala": "මගේ පාස්පෝට් එක නැති වුණා",
+    "romanization": "magē pāspōṭ eka næti vuṇā",
+    "english": "I've lost my passport",
+    "category": "emergency",
+    "tags": "passport,lost,emergency",
+    "sort_order": 167
+  },
+  {
+    "sinhala": "මගෙන් හොරකම් කළා",
+    "romanization": "magen horakam kaḷā",
+    "english": "I've been robbed",
+    "category": "emergency",
+    "tags": "robbed,theft,emergency,crime",
+    "sort_order": 168
+  },
+  {
+    "sinhala": "ළඟම ඉස්පිරිතාලේ කොහෙද?",
+    "romanization": "ḷaṅgama ispirithālē kohēda?",
+    "english": "Where is the nearest hospital?",
+    "category": "emergency",
+    "tags": "hospital,emergency,medical,question",
+    "sort_order": 169
+  },
+  {
+    "sinhala": "ගින්නක්!",
+    "romanization": "ginnak!",
+    "english": "Fire!",
+    "category": "emergency",
+    "tags": "fire,emergency,danger",
+    "sort_order": 170
+  },
+  {
+    "sinhala": "මම අතරමං වුණා",
+    "romanization": "mama ataramaṁ vuṇā",
+    "english": "I'm lost",
+    "category": "emergency",
+    "tags": "lost,emergency,help",
+    "sort_order": 171
+  },
+  {
+    "sinhala": "මෙතන ආරක්ෂිතද?",
+    "romanization": "methana ārakṣithada?",
+    "english": "Is it safe here?",
+    "category": "emergency",
+    "tags": "safe,safety,emergency,question",
+    "sort_order": 172
+  },
+  {
+    "sinhala": "මට කලින් වෙන් කරලා තියෙනවා",
+    "romanization": "maṭa kalin ven karalā thiyenavā",
+    "english": "I have a reservation",
+    "category": "hotel",
+    "tags": "hotel,reservation,checkin",
+    "sort_order": 173
+  },
+  {
+    "sinhala": "උදේ කෑම ඇතුළත්ද?",
+    "romanization": "udē kǣma athuḷathda?",
+    "english": "Is breakfast included?",
+    "category": "hotel",
+    "tags": "hotel,breakfast,question",
+    "sort_order": 174
+  },
+  {
+    "sinhala": "චෙක් අවුට් වෙන වෙලාව කීයද?",
+    "romanization": "check out venə velāva kīyada?",
+    "english": "What time is check-out?",
+    "category": "hotel",
+    "tags": "hotel,checkout,time,question",
+    "sort_order": 175
+  },
+  {
+    "sinhala": "මට කාමරයක් ලැබෙයිද?",
+    "romanization": "maṭa kāmarayak læbeyida?",
+    "english": "Can I get a room?",
+    "category": "hotel",
+    "tags": "hotel,room,question",
+    "sort_order": 176
+  },
+  {
+    "sinhala": "Wi-Fi එක වැඩ කරන්නෙ නෑ",
+    "romanization": "Wi-Fi eka væḍa karannē nǣ",
+    "english": "The Wi-Fi isn't working",
+    "category": "hotel",
+    "tags": "hotel,wifi,internet,problem",
+    "sort_order": 177
+  },
+  {
+    "sinhala": "Wi-Fi පාස්වර්ඩ් එක දෙන්නද?",
+    "romanization": "Wi-Fi pāsvarḍ eka dennada?",
+    "english": "Can I have the Wi-Fi password?",
+    "category": "hotel",
+    "tags": "hotel,wifi,password,question",
+    "sort_order": 178
+  },
+  {
+    "sinhala": "AC එක වැඩ කරන්නෙ නෑ",
+    "romanization": "AC eka væḍa karannē nǣ",
+    "english": "The air conditioning isn't working",
+    "category": "hotel",
+    "tags": "hotel,ac,airconditioning,problem",
+    "sort_order": 179
+  },
+  {
+    "sinhala": "කලින් චෙක් ඉන් වෙන්න පුළුවන්ද?",
+    "romanization": "kalin check in venna puḷuvanda?",
+    "english": "Can I check in early?",
+    "category": "hotel",
+    "tags": "hotel,checkin,question",
+    "sort_order": 180
+  },
+  {
+    "sinhala": "මට තව තුවා ලැබෙයිද?",
+    "romanization": "maṭa thava thuvā læbeyida?",
+    "english": "Can I get extra towels?",
+    "category": "hotel",
+    "tags": "hotel,towels,question",
+    "sort_order": 181
+  },
+  {
+    "sinhala": "මගේ කාමරය කොහෙද?",
+    "romanization": "magē kāmaraya kohēda?",
+    "english": "Where is my room?",
+    "category": "hotel",
+    "tags": "hotel,room,question",
+    "sort_order": 182
+  },
+  {
+    "sinhala": "ATM එකක් කොහෙද?",
+    "romanization": "ATM ekak kohēda?",
+    "english": "Where is an ATM?",
+    "category": "money",
+    "tags": "money,atm,bank,question",
+    "sort_order": 183
+  },
+  {
+    "sinhala": "ක්‍රෙඩිට් කාඩ් පත් පිළිගන්නවද?",
+    "romanization": "kreḍiṭ kāḍ path piḷigannavada?",
+    "english": "Do you accept credit cards?",
+    "category": "money",
+    "tags": "money,card,creditcard,payment,question",
+    "sort_order": 184
+  },
+  {
+    "sinhala": "මෙතන සල්ලි මාරු කරගන්න පුළුවන්ද?",
+    "romanization": "methana salli māru karagannə puḷuvanda?",
+    "english": "Can I exchange money here?",
+    "category": "money",
+    "tags": "money,exchange,currency,question",
+    "sort_order": 185
+  },
+  {
+    "sinhala": "මාරු කිරීමේ අනුපාතය මොකක්ද?",
+    "romanization": "māru kirīmē anupāthaya mokakda?",
+    "english": "What's the exchange rate?",
+    "category": "money",
+    "tags": "money,exchangerate,currency,question",
+    "sort_order": 186
+  },
+  {
+    "sinhala": "මට කෑෂ් ඕන",
+    "romanization": "maṭa kǣṣ ōna",
+    "english": "I need cash",
+    "category": "money",
+    "tags": "money,cash",
+    "sort_order": 187
+  },
+  {
+    "sinhala": "ගාස්තුවක් තියෙනවද?",
+    "romanization": "gāsthuvak thiyenavada?",
+    "english": "Is there a fee?",
+    "category": "money",
+    "tags": "money,fee,question",
+    "sort_order": 188
+  },
+  {
+    "sinhala": "මේ නෝට්ටුව කඩන්න පුළුවන්ද?",
+    "romanization": "mē nōṭṭuva kaḍanna puḷuvanda?",
+    "english": "Can you break this note?",
+    "category": "money",
+    "tags": "money,change,note,question",
+    "sort_order": 189
+  },
+  {
+    "sinhala": "කීයක් ටිප් දෙන්නද?",
+    "romanization": "kīyak ṭip dennada?",
+    "english": "How much do I tip?",
+    "category": "money",
+    "tags": "money,tip,tipping,question",
+    "sort_order": 190
+  },
+  {
+    "sinhala": "මම සපත්තු ගලවන්න ඕනද?",
+    "romanization": "mama sapaththu galavanna ōnada?",
+    "english": "Do I need to remove my shoes?",
+    "category": "sightseeing",
+    "tags": "temple,shoes,etiquette,question",
+    "sort_order": 191
+  },
+  {
+    "sinhala": "මේක පූජනීය ස්ථානයක්ද?",
+    "romanization": "mēka pūjanīya sthānayakda?",
+    "english": "Is this a sacred site?",
+    "category": "sightseeing",
+    "tags": "temple,sacred,question",
+    "sort_order": 192
+  },
+  {
+    "sinhala": "මෙක ඇරෙන්නෙ කීයටද?",
+    "romanization": "meka ærennē kīyaṭada?",
+    "english": "What time does it open?",
+    "category": "sightseeing",
+    "tags": "sightseeing,hours,open,question",
+    "sort_order": 193
+  },
+  {
+    "sinhala": "මෙක වහන්නෙ කීයටද?",
+    "romanization": "meka vahannē kīyaṭada?",
+    "english": "What time does it close?",
+    "category": "sightseeing",
+    "tags": "sightseeing,hours,close,question",
+    "sort_order": 194
+  },
+  {
+    "sinhala": "ඇතුල්වීමේ ගාස්තුව කීයද?",
+    "romanization": "athulvīmē gāsthuva kīyada?",
+    "english": "How much is the entrance fee?",
+    "category": "sightseeing",
+    "tags": "sightseeing,entrance,fee,question",
+    "sort_order": 195
+  },
+  {
+    "sinhala": "මෙතන ෆොටෝ ගන්න පුළුවන්ද?",
+    "romanization": "methana phoṭō ganna puḷuvanda?",
+    "english": "Can I take photos here?",
+    "category": "sightseeing",
+    "tags": "sightseeing,photos,camera,question",
+    "sort_order": 196
+  },
+  {
+    "sinhala": "ගයිඩ් කෙනෙක් ඉන්නවද?",
+    "romanization": "gaiḍ kenek innavada?",
+    "english": "Do you have a guide?",
+    "category": "sightseeing",
+    "tags": "sightseeing,guide,question",
+    "sort_order": 197
+  },
+  {
+    "sinhala": "පන්සල කොහෙද?",
+    "romanization": "pansala kohēda?",
+    "english": "Where is the temple?",
+    "category": "sightseeing",
+    "tags": "temple,sightseeing,question",
+    "sort_order": 198
+  },
+  {
+    "sinhala": "මෙතන ලස්සනයි",
+    "romanization": "methana lassanayi",
+    "english": "It's beautiful here",
+    "category": "sightseeing",
+    "tags": "sightseeing,beautiful,scenery",
+    "sort_order": 199
+  },
+  {
+    "sinhala": "මට මෙතන උරහිස් වහගන්න ඕනද?",
+    "romanization": "maṭa methana urahis vahaganna ōnada?",
+    "english": "Do I need to cover my shoulders here?",
+    "category": "sightseeing",
+    "tags": "temple,etiquette,dresscode,question",
+    "sort_order": 200
+  },
+  {
+    "sinhala": "අද රස්නෙයි",
+    "romanization": "ada rasneyi",
+    "english": "It's hot today",
+    "category": "weather",
+    "tags": "weather,hot,heat",
+    "sort_order": 201
+  },
+  {
+    "sinhala": "වහිනවා",
+    "romanization": "vahinavā",
+    "english": "It's raining",
+    "category": "weather",
+    "tags": "weather,rain",
+    "sort_order": 202
+  },
+  {
+    "sinhala": "දැන් වැසි කාලෙද?",
+    "romanization": "dæn væsi kālēda?",
+    "english": "Is it monsoon season?",
+    "category": "weather",
+    "tags": "weather,monsoon,season,question",
+    "sort_order": 203
+  },
+  {
+    "sinhala": "මෙතන පිහිනන්න ආරක්ෂිතද?",
+    "romanization": "methana pihinanna ārakṣithada?",
+    "english": "Is it safe to swim here?",
+    "category": "weather",
+    "tags": "beach,swim,safety,question",
+    "sort_order": 204
+  },
+  {
+    "sinhala": "හෙට කාලගුණය කොහොමද?",
+    "romanization": "heta kālaguṇaya kohomada?",
+    "english": "What's the weather like tomorrow?",
+    "category": "weather",
+    "tags": "weather,tomorrow,question",
+    "sort_order": 205
+  },
+  {
+    "sinhala": "හරිම අව්වයි",
+    "romanization": "harima avvayi",
+    "english": "It's very sunny",
+    "category": "weather",
+    "tags": "weather,sunny,sun",
+    "sort_order": 206
+  },
+  {
+    "sinhala": "ලයිෆ්ගාඩ් කෙනෙක් ඉන්නවද?",
+    "romanization": "laiphgāḍ kenek innavada?",
+    "english": "Is there a lifeguard?",
+    "category": "weather",
+    "tags": "beach,lifeguard,safety,question",
+    "sort_order": 207
+  },
+  {
+    "sinhala": "වෙරළ ලස්සනයි",
+    "romanization": "veraḷa lassanayi",
+    "english": "The beach is beautiful",
+    "category": "weather",
+    "tags": "beach,scenery,beautiful",
+    "sort_order": 208
+  },
+  {
+    "sinhala": "ඒක ගොඩක් අධිකයි",
+    "romanization": "ēka goḍak adhikayi",
+    "english": "That's too expensive",
+    "category": "bargaining",
+    "tags": "bargaining,price,expensive,shopping",
+    "sort_order": 209
+  },
+  {
+    "sinhala": "මිල අඩු කරන්න පුළුවන්ද?",
+    "romanization": "mila aḍu karanna puḷuvanda?",
+    "english": "Can you lower the price?",
+    "category": "bargaining",
+    "tags": "bargaining,price,discount,question",
+    "sort_order": 210
+  },
+  {
+    "sinhala": "අන්තිම මිල කීයද?",
+    "romanization": "anthima mila kīyada?",
+    "english": "What's your final price?",
+    "category": "bargaining",
+    "tags": "bargaining,price,question",
+    "sort_order": 211
+  },
+  {
+    "sinhala": "ත්‍රීවීලර් එකට කීයද?",
+    "romanization": "thrīvīlar ekaṭa kīyada?",
+    "english": "How much for the tuk-tuk?",
+    "category": "bargaining",
+    "tags": "bargaining,tuktuk,transportation,price,question",
+    "sort_order": 212
+  },
+  {
+    "sinhala": "ඒක වැඩියි",
+    "romanization": "ēka væḍiyi",
+    "english": "That's too much",
+    "category": "bargaining",
+    "tags": "bargaining,price,expensive",
+    "sort_order": 213
+  },
+  {
+    "sinhala": "වට්ටමක් දෙන්න පුළුවන්ද?",
+    "romanization": "vaṭṭamak denna puḷuvanda?",
+    "english": "Can you give a discount?",
+    "category": "bargaining",
+    "tags": "bargaining,discount,question",
+    "sort_order": 214
+  },
+  {
+    "sinhala": "හරි, එකඟයි",
+    "romanization": "hari, ekaṅgayi",
+    "english": "Deal! / Okay, agreed",
+    "category": "bargaining",
+    "tags": "bargaining,agree,deal",
+    "sort_order": 215
+  },
+  {
+    "sinhala": "ඒක සාධාරණ මිලක්",
+    "romanization": "ēka sādhāraṇa milak",
+    "english": "That's a fair price",
+    "category": "bargaining",
+    "tags": "bargaining,price,fair",
+    "sort_order": 216
   }
 ]
