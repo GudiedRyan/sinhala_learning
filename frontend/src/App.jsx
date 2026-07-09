@@ -3,12 +3,14 @@ import { fetchCards } from './api/cards'
 import Deck from './components/Deck'
 import Translate from './components/Translate'
 import Phrasebook from './components/Phrasebook'
+import MatchingGame from './components/MatchingGame'
 import './App.css'
 
 const TABS = [
   { value: 'flashcards', label: 'Flashcards' },
   { value: 'translate', label: 'Translate' },
   { value: 'phrases', label: 'Phrases' },
+  { value: 'matching', label: 'Matching Game' },
 ]
 
 function App() {
@@ -49,6 +51,8 @@ function App() {
       {tab === 'translate' && <Translate />}
 
       {tab === 'phrases' && <Phrasebook />}
+
+      {tab === 'matching' && <MatchingGame />}
     </div>
   )
 }

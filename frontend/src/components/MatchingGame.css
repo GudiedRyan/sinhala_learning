@@ -1,0 +1,184 @@
+.matching-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.matching-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.matching-setup-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.matching-setup-section h3 {
+  margin: 0;
+}
+
+.matching-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.matching-controls button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.matching-controls button.active,
+.matching-random-mix.active {
+  background-color: #646cff;
+  color: white;
+}
+
+.matching-clamp-notice {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.matching-lorem {
+  width: 100%;
+  max-width: 480px;
+  margin: 0;
+  color: #b3b3b3;
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.matching-start-btn {
+  padding: 0.6rem 1.6rem;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background-color: #646cff;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.matching-start-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #1e1e1e;
+  color: inherit;
+}
+
+.matching-play-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.matching-board-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.matching-give-up-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: #e0b060;
+  font: inherit;
+  cursor: pointer;
+}
+
+.matching-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.6rem;
+  column-gap: 0.75rem;
+  width: 100%;
+}
+
+.matching-tile {
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: inherit;
+  font: inherit;
+  padding: 0.7rem 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  transition: opacity 0.4s, background-color 0.15s, border-color 0.15s;
+}
+
+.matching-tile-sinhala,
+.matching-tile-english {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.matching-tile-romanization {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #b3b3b3;
+}
+
+.matching-tile.selected {
+  background-color: #646cff;
+  color: white;
+}
+
+.matching-tile.selected .matching-tile-romanization {
+  color: #e5e5ff;
+}
+
+.matching-tile.mismatch {
+  background-color: #4a1f1f;
+  border-color: #ff5555;
+}
+
+.matching-tile.matched {
+  opacity: 0.45;
+  pointer-events: none;
+  border-color: #3a5a3a;
+}
+
+.matching-tile.matched.revealed {
+  border-color: #8a6d1f;
+}
+
+.matching-complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.matching-complete button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
