@@ -3,9 +3,13 @@ import { fetchPhrases } from '../api/phrases'
 import { shuffle } from '../utils/shuffle'
 import './MatchingGame.css'
 
-const ROUND_SIZES = [6, 8, 10, 12]
+const ROUND_SIZES = [6, 8, 10, 12, 16, 20]
 const MISMATCH_DELAY_MS = 600
 const FLIP_DURATION_MS = 400
+
+function resolveRoundSize(size, sourcePool) {
+  return size === 'max' ? sourcePool.length : size
+}
 
 function registerTileRef(refMap, id, el) {
   if (el) refMap.current.set(id, el)
@@ -116,7 +120,28 @@ export default function MatchingGame() {
   }, [phrases, randomMix, selectedCategories])
 
   const canStart = pool.length >= 2
-  const showClampNotice = pool.length > 0 && pool.length < roundSize
+  const showClampNotice = roundSize !== 'max' && pool.length > 0 && pool.length < roundSize
+
+  // rows for still-unmatched tiles are ranked by their position among only the
+  // remaining unmatched tiles in that column, so as tiles get matched away the
+  // rest pack upward into the freed rows instead of leaving gaps
+  const leftUnmatchedRank = useMemo(() => {
+    const ranks = new Map()
+    let rank = 0
+    leftTiles.forEach((tile) => {
+      if (!matchedPhraseIds.has(tile.phraseId)) ranks.set(tile.phraseId, rank++)
+    })
+    return ranks
+  }, [leftTiles, matchedPhraseIds])
+
+  const rightUnmatchedRank = useMemo(() => {
+    const ranks = new Map()
+    let rank = 0
+    rightTiles.forEach((tile) => {
+      if (!matchedPhraseIds.has(tile.phraseId)) ranks.set(tile.phraseId, rank++)
+    })
+    return ranks
+  }, [rightTiles, matchedPhraseIds])
 
   useEffect(() => {
     if (phase === 'playing' && roundPhrases.length > 0 && matchedPhraseIds.size === roundPhrases.length) {
@@ -154,7 +179,7 @@ export default function MatchingGame() {
   }
 
   function startRound() {
-    const { sampled, left, right } = buildRound(pool, roundSize)
+    const { sampled, left, right } = buildRound(pool, resolveRoundSize(roundSize, pool))
     setRoundPool(pool)
     setRoundPhrases(sampled)
     setLeftTiles(left)
@@ -164,7 +189,7 @@ export default function MatchingGame() {
   }
 
   function playAgain() {
-    const { sampled, left, right } = buildRound(roundPool, roundSize)
+    const { sampled, left, right } = buildRound(roundPool, resolveRoundSize(roundSize, roundPool))
     setRoundPhrases(sampled)
     setLeftTiles(left)
     setRightTiles(right)
@@ -182,8 +207,13 @@ export default function MatchingGame() {
     const right = rightTiles.find((t) => t.id === rightId)
 
     if (left.phraseId === right.phraseId) {
+      // compute the order value here, outside the setState updater -- React 18
+      // StrictMode double-invokes updater functions in dev, which would burn an
+      // extra counter value each match if the increment lived inside one
+      const order = matchCounterRef.current
+      matchCounterRef.current += 1
       setMatchedPhraseIds((prev) => new Set(prev).add(left.phraseId))
-      setMatchOrder((prev) => ({ ...prev, [left.phraseId]: matchCounterRef.current++ }))
+      setMatchOrder((prev) => ({ ...prev, [left.phraseId]: order }))
       setSelectedLeftId(null)
       setSelectedRightId(null)
       return
@@ -233,29 +263,31 @@ export default function MatchingGame() {
       remaining.forEach((p) => next.add(p.id))
       return next
     })
-    setMatchOrder((prev) => {
-      const next = { ...prev }
-      remaining.forEach((p) => {
-        next[p.id] = matchCounterRef.current++
-      })
-      return next
+    const orders = {}
+    remaining.forEach((p) => {
+      orders[p.id] = matchCounterRef.current
+      matchCounterRef.current += 1
     })
+    setMatchOrder((prev) => ({ ...prev, ...orders }))
     setSelectedLeftId(null)
     setSelectedRightId(null)
     setMismatchIds(null)
     setInputLocked(false)
   }
 
-  function tileRow(phraseId, index) {
-    // unmatched tiles keep a stable row based on their original position;
-    // matched/revealed tiles move below all unmatched rows, paired by
-    // phraseId so a pair always lands on the same grid row. Using a real
-    // CSS grid (not independent flex columns) means the row height is the
-    // max of both cells, so multiline phrases on either side can't throw
-    // off alignment.
+  function tileRow(phraseId, unmatchedRank) {
+    // unmatched tiles pack into the top rows by their rank among only the
+    // remaining unmatched tiles, so the "open" area shrinks as pairs are
+    // matched away instead of leaving holes. Matched/revealed tiles sit
+    // right below that (shared row per phraseId, via matchOrder), so as the
+    // unmatched area condenses the matched block rides up behind it too.
+    // Using a real CSS grid (not independent flex columns) means the row
+    // height is the max of both cells, so multiline phrases on either side
+    // can't throw off alignment.
+    const remaining = roundPhrases.length - matchedPhraseIds.size
     return matchedPhraseIds.has(phraseId)
-      ? roundPhrases.length + 1 + (matchOrder[phraseId] ?? 0)
-      : index + 1
+      ? remaining + 1 + (matchOrder[phraseId] ?? 0)
+      : (unmatchedRank.get(phraseId) ?? 0) + 1
   }
 
   if (error) return <p className="error">Could not load phrases: {error}</p>
@@ -268,8 +300,7 @@ export default function MatchingGame() {
           <div className="matching-setup-section">
             <h3>Category</h3>
             <p className="matching-lorem">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Select all topics you would like to practice for the matching game.
             </p>
             <div className="matching-controls">
               <button
@@ -293,8 +324,7 @@ export default function MatchingGame() {
           <div className="matching-setup-section">
             <h3>Round size</h3>
             <p className="matching-lorem">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat.
+              Choose the number of matches you would like for the game.
             </p>
             <div className="matching-controls">
               {ROUND_SIZES.map((size) => (
@@ -306,6 +336,12 @@ export default function MatchingGame() {
                   {size}
                 </button>
               ))}
+              <button
+                className={roundSize === 'max' ? 'active' : ''}
+                onClick={() => setRoundSize('max')}
+              >
+                Max{pool.length > 0 ? ` (${pool.length})` : ''}
+              </button>
             </div>
             {showClampNotice && (
               <p className="matching-clamp-notice">
@@ -317,6 +353,9 @@ export default function MatchingGame() {
 
           <div className="matching-setup-section">
             <h3>Options</h3>
+            <p className="matching-lorem">
+              Toggle for "singlish" (romanization) to be included.
+            </p>
             <div className="matching-controls">
               <button
                 className={showRomanization ? 'active' : ''}
@@ -361,11 +400,11 @@ export default function MatchingGame() {
           )}
 
           <div className="matching-board">
-            {leftTiles.map((tile, index) => (
+            {leftTiles.map((tile) => (
               <button
                 key={tile.id}
                 ref={(el) => registerTileRef(leftTileRefs, tile.id, el)}
-                style={{ gridColumn: 1, gridRow: tileRow(tile.phraseId, index) }}
+                style={{ gridColumn: 1, gridRow: tileRow(tile.phraseId, leftUnmatchedRank) }}
                 className={[
                   'matching-tile',
                   selectedLeftId === tile.id ? 'selected' : '',
@@ -384,11 +423,11 @@ export default function MatchingGame() {
               </button>
             ))}
 
-            {rightTiles.map((tile, index) => (
+            {rightTiles.map((tile) => (
               <button
                 key={tile.id}
                 ref={(el) => registerTileRef(rightTileRefs, tile.id, el)}
-                style={{ gridColumn: 2, gridRow: tileRow(tile.phraseId, index) }}
+                style={{ gridColumn: 2, gridRow: tileRow(tile.phraseId, rightUnmatchedRank) }}
                 className={[
                   'matching-tile',
                   selectedRightId === tile.id ? 'selected' : '',
