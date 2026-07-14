@@ -113,7 +113,7 @@
   },
   {
     "sinhala": "ඔව්",
-    "romanization": "ov",
+    "romanization": "ow",
     "english": "Yes",
     "category": "basics",
     "tags": "yes,basics",
@@ -288,16 +288,16 @@
     "sort_order": 36
   },
   {
-    "sinhala": "මගේ ඔලුව රිද්දනවා",
-    "romanization": "magē oluva riddanavā",
+    "sinhala": "මගේ ඔලුව රිදෙනවා",
+    "romanization": "magē oluva ridenavā",
     "english": "I have a headache",
     "category": "medical",
     "tags": "headache,pain,medical,health",
     "sort_order": 37
   },
   {
-    "sinhala": "මගේ බඩ රිද්දනවා",
-    "romanization": "magē baḍa riddanavā",
+    "sinhala": "මගේ බඩ රිදෙනවා",
+    "romanization": "magē baḍa ridenavā",
     "english": "I have a stomach ache",
     "category": "medical",
     "tags": "stomach,pain,medical,health",
@@ -328,8 +328,8 @@
     "sort_order": 41
   },
   {
-    "sinhala": "මෙතන රිද්දනවා",
-    "romanization": "metana riddanavā",
+    "sinhala": "මෙතන රිදෙනවා",
+    "romanization": "metana ridenavā",
     "english": "It hurts here",
     "category": "medical",
     "tags": "pain,hurt,medical,health",
@@ -1041,7 +1041,7 @@
   },
   {
     "sinhala": "වඳුරා",
-    "romanization": "vaduvā",
+    "romanization": "vadurā",
     "english": "Monkey",
     "category": "animals",
     "tags": "monkey,animal",
@@ -1080,8 +1080,8 @@
     "sort_order": 135
   },
   {
-    "sinhala": "මේක මගේ සුරතලා",
-    "romanization": "mēka magē suratalā",
+    "sinhala": "මේ මගේ සුරතලා",
+    "romanization": "mē magē suratalā",
     "english": "This is my pet",
     "category": "animals",
     "tags": "pet,animal",
@@ -1200,8 +1200,8 @@
     "sort_order": 150
   },
   {
-    "sinhala": "මේකේ පාට මොකක්ද?",
-    "romanization": "mēkē pāṭa mokakda?",
+    "sinhala": "මේ පාට මොකක්ද?",
+    "romanization": "mē pāṭa mokakda?",
     "english": "What color is this?",
     "category": "colors",
     "tags": "color,question",
@@ -1726,5 +1726,221 @@
     "category": "bargaining",
     "tags": "bargaining,price,fair",
     "sort_order": 216
+  },
+  {
+    "sinhala": "ඔලුව",
+    "romanization": "oluva",
+    "english": "Head",
+    "category": "body parts",
+    "tags": "head,body,bodypart",
+    "sort_order": 217
+  },
+  {
+    "sinhala": "ඇස",
+    "romanization": "æsa",
+    "english": "Eye",
+    "category": "body parts",
+    "tags": "eye,body,bodypart",
+    "sort_order": 218
+  },
+  {
+    "sinhala": "කන",
+    "romanization": "kana",
+    "english": "Ear",
+    "category": "body parts",
+    "tags": "ear,body,bodypart",
+    "sort_order": 219
+  },
+  {
+    "sinhala": "නාසය",
+    "romanization": "nāsaya",
+    "english": "Nose",
+    "category": "body parts",
+    "tags": "nose,body,bodypart",
+    "sort_order": 220
+  },
+  {
+    "sinhala": "කට",
+    "romanization": "kaṭa",
+    "english": "Mouth",
+    "category": "body parts",
+    "tags": "mouth,body,bodypart",
+    "sort_order": 221
+  },
+  {
+    "sinhala": "දත්",
+    "romanization": "dath",
+    "english": "Teeth",
+    "category": "body parts",
+    "tags": "teeth,tooth,body,bodypart",
+    "sort_order": 222
+  },
+  {
+    "sinhala": "දිව",
+    "romanization": "diva",
+    "english": "Tongue",
+    "category": "body parts",
+    "tags": "tongue,body,bodypart",
+    "sort_order": 223
+  },
+  {
+    "sinhala": "කෙස්",
+    "romanization": "kes",
+    "english": "Hair",
+    "category": "body parts",
+    "tags": "hair,body,bodypart",
+    "sort_order": 224
+  },
+  {
+    "sinhala": "බෙල්ල",
+    "romanization": "bella",
+    "english": "Neck",
+    "category": "body parts",
+    "tags": "neck,body,bodypart",
+    "sort_order": 225
+  },
+  {
+    "sinhala": "උගුර",
+    "romanization": "ugura",
+    "english": "Throat",
+    "category": "body parts",
+    "tags": "throat,body,bodypart",
+    "sort_order": 226
+  },
+  {
+    "sinhala": "උරහිස",
+    "romanization": "urahisa",
+    "english": "Shoulder",
+    "category": "body parts",
+    "tags": "shoulder,body,bodypart",
+    "sort_order": 227
+  },
+  {
+    "sinhala": "අත",
+    "romanization": "atha",
+    "english": "Arm / Hand",
+    "category": "body parts",
+    "tags": "arm,hand,body,bodypart",
+    "sort_order": 228
+  },
+  {
+    "sinhala": "ඇඟිල්ල",
+    "romanization": "æṅgilla",
+    "english": "Finger",
+    "category": "body parts",
+    "tags": "finger,body,bodypart",
+    "sort_order": 229
+  },
+  {
+    "sinhala": "පපුව",
+    "romanization": "papuva",
+    "english": "Chest",
+    "category": "body parts",
+    "tags": "chest,body,bodypart",
+    "sort_order": 230
+  },
+  {
+    "sinhala": "බඩ",
+    "romanization": "baḍa",
+    "english": "Stomach",
+    "category": "body parts",
+    "tags": "stomach,belly,body,bodypart",
+    "sort_order": 231
+  },
+  {
+    "sinhala": "පිට",
+    "romanization": "piṭa",
+    "english": "Back",
+    "category": "body parts",
+    "tags": "back,body,bodypart",
+    "sort_order": 232
+  },
+  {
+    "sinhala": "කකුල",
+    "romanization": "kakula",
+    "english": "Leg",
+    "category": "body parts",
+    "tags": "leg,body,bodypart",
+    "sort_order": 233
+  },
+  {
+    "sinhala": "දණහිස",
+    "romanization": "daṇahisa",
+    "english": "Knee",
+    "category": "body parts",
+    "tags": "knee,body,bodypart",
+    "sort_order": 234
+  },
+  {
+    "sinhala": "පාදය",
+    "romanization": "pādaya",
+    "english": "Foot",
+    "category": "body parts",
+    "tags": "foot,body,bodypart",
+    "sort_order": 235
+  },
+  {
+    "sinhala": "හම",
+    "romanization": "hama",
+    "english": "Skin",
+    "category": "body parts",
+    "tags": "skin,body,bodypart",
+    "sort_order": 236
+  },
+  {
+    "sinhala": "මගේ ඔලුව රිදෙනවා",
+    "romanization": "magē oluva ridenavā",
+    "english": "I have a headache",
+    "category": "body parts",
+    "tags": "headache,pain,head,bodypart",
+    "sort_order": 237
+  },
+  {
+    "sinhala": "මගේ ඇස රිදෙනවා",
+    "romanization": "magē æsa ridenavā",
+    "english": "My eye hurts",
+    "category": "body parts",
+    "tags": "pain,eye,bodypart",
+    "sort_order": 238
+  },
+  {
+    "sinhala": "මගේ උගුර රිදෙනවා",
+    "romanization": "magē ugura ridenavā",
+    "english": "My throat hurts",
+    "category": "body parts",
+    "tags": "pain,throat,soreThroat,bodypart",
+    "sort_order": 239
+  },
+  {
+    "sinhala": "මගේ පිට රිදෙනවා",
+    "romanization": "magē piṭa ridenavā",
+    "english": "My back hurts",
+    "category": "body parts",
+    "tags": "pain,back,bodypart",
+    "sort_order": 240
+  },
+  {
+    "sinhala": "මගේ දත රිදෙනවා",
+    "romanization": "magē datha ridenavā",
+    "english": "My tooth hurts",
+    "category": "body parts",
+    "tags": "pain,tooth,teeth,bodypart",
+    "sort_order": 241
+  },
+  {
+    "sinhala": "මගේ කකුල රිදෙනවා",
+    "romanization": "magē kakula ridenavā",
+    "english": "My leg hurts",
+    "category": "body parts",
+    "tags": "pain,leg,bodypart",
+    "sort_order": 242
+  },
+  {
+    "sinhala": "කොහෙද රිද්දන්නේ?",
+    "romanization": "kohēda riddannē?",
+    "english": "Where does it hurt?",
+    "category": "body parts",
+    "tags": "pain,question,bodypart",
+    "sort_order": 243
   }
 ]
