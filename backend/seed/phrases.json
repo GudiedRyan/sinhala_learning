@@ -72,8 +72,8 @@
     "sort_order": 9
   },
   {
-    "sinhala": "ඔයාව හම්බෙලා සතුටුයි",
-    "romanization": "oyāva hambelā satutui",
+    "sinhala": "ඔයාව හමුවීම සතුටක්",
+    "romanization": "oyāva hamuveema sathutak",
     "english": "Nice to meet you",
     "category": "conversation",
     "tags": "nice to meet you,introduction,greeting",
@@ -136,16 +136,16 @@
     "sort_order": 17
   },
   {
-    "sinhala": "මට තේරෙන්නෑ",
-    "romanization": "maṭa tērennǣ",
+    "sinhala": "මට තේරෙන්නෙ නෑ",
+    "romanization": "maṭa thērenne nǣ",
     "english": "I don't understand",
     "category": "conversation",
     "tags": "understand,help,confusion",
     "sort_order": 18
   },
   {
-    "sinhala": "ඔයාට මට උදව් කරන්න පුළුවන්ද?",
-    "romanization": "oyāṭa maṭa udav karanna puḷuvanda?",
+    "sinhala": "මට උදව් කරන්න පුළුවන්ද?",
+    "romanization": "maṭa udav karanna puḷuvanda?",
     "english": "Can you help me?",
     "category": "conversation",
     "tags": "help,assistance,question",
@@ -248,19 +248,19 @@
     "sort_order": 31
   },
   {
-    "sinhala": "මෙතනින් දුරද?",
-    "romanization": "metanin durada?",
+    "sinhala": "මෙතන ඉඳන් දුරද?",
+    "romanization": "methana indan durada?",
     "english": "Is it far from here?",
     "category": "directions",
     "tags": "directions,distance,far",
     "sort_order": 32
   },
   {
-    "sinhala": "මම නැති වෙලා",
-    "romanization": "mama næti velā",
+    "sinhala": "මම අතරමං වෙලා",
+    "romanization": "mama atharamang velā",
     "english": "I am lost",
     "category": "directions",
-    "tags": "directions,lost,help",
+    "tags": "directions,lost,help,emergency",
     "sort_order": 33
   },
   {
@@ -464,8 +464,8 @@
     "sort_order": 58
   },
   {
-    "sinhala": "ඔයාගේ පවුලේ අය කොහොමද?",
-    "romanization": "oyāgē pavulē aya kohomada?",
+    "sinhala": "ඔයාගේ පවුලේ අයට කොහොමද?",
+    "romanization": "oyāgē pavulē ayata kohomada?",
     "english": "How is your family?",
     "category": "family",
     "tags": "family,question",
@@ -480,20 +480,12 @@
     "sort_order": 60
   },
   {
-    "sinhala": "මොහු මගේ හොඳම යාළුවා",
-    "romanization": "mohu magē hondama yāḷuvā",
-    "english": "He/She is my best friend",
+    "sinhala": "මේ මගේ හොඳම යාළුවා",
+    "romanization": "mē magē hondama yāḷuvā",
+    "english": "This is my best friend",
     "category": "friends",
     "tags": "best friend,friends",
     "sort_order": 61
-  },
-  {
-    "sinhala": "අපි එකට ඉමු",
-    "romanization": "api ekaṭa imu",
-    "english": "Let's hang out",
-    "category": "friends",
-    "tags": "hang out,friends,casual",
-    "sort_order": 62
   },
   {
     "sinhala": "ඔයා මා එක්ක එනවද?",
@@ -624,8 +616,8 @@
     "sort_order": 78
   },
   {
-    "sinhala": "මට බඩ පිරුණා",
-    "romanization": "maṭa baḍa piruṇā",
+    "sinhala": "මගෙ බඩ පිරුණා",
+    "romanization": "magē baḍa piruṇā",
     "english": "I'm full",
     "category": "food",
     "tags": "full,food",
@@ -1329,19 +1321,11 @@
   },
   {
     "sinhala": "මගේ පාස්පෝට් එක නැති වුණා",
-    "romanization": "magē pāspōṭ eka næti vuṇā",
+    "romanization": "magē passport eka næti vuṇā",
     "english": "I've lost my passport",
     "category": "emergency",
     "tags": "passport,lost,emergency",
     "sort_order": 167
-  },
-  {
-    "sinhala": "මගෙන් හොරකම් කළා",
-    "romanization": "magen horakam kaḷā",
-    "english": "I've been robbed",
-    "category": "emergency",
-    "tags": "robbed,theft,emergency,crime",
-    "sort_order": 168
   },
   {
     "sinhala": "ළඟම ඉස්පිරිතාලේ කොහෙද?",
@@ -1358,14 +1342,6 @@
     "category": "emergency",
     "tags": "fire,emergency,danger",
     "sort_order": 170
-  },
-  {
-    "sinhala": "මම අතරමං වුණා",
-    "romanization": "mama ataramaṁ vuṇā",
-    "english": "I'm lost",
-    "category": "emergency",
-    "tags": "lost,emergency,help",
-    "sort_order": 171
   },
   {
     "sinhala": "මෙතන ආරක්ෂිතද?",
@@ -1664,8 +1640,8 @@
     "sort_order": 208
   },
   {
-    "sinhala": "ඒක ගොඩක් අධිකයි",
-    "romanization": "ēka goḍak adhikayi",
+    "sinhala": "ඒක ගොඩක් මිල අධිකයි",
+    "romanization": "ēka goḍak mila adhikayi",
     "english": "That's too expensive",
     "category": "bargaining",
     "tags": "bargaining,price,expensive,shopping",
@@ -1689,27 +1665,19 @@
   },
   {
     "sinhala": "ත්‍රීවීලර් එකට කීයද?",
-    "romanization": "thrīvīlar ekaṭa kīyada?",
+    "romanization": "three-wheeler ekaṭa kīyada?",
     "english": "How much for the tuk-tuk?",
     "category": "bargaining",
     "tags": "bargaining,tuktuk,transportation,price,question",
     "sort_order": 212
   },
   {
-    "sinhala": "ඒක වැඩියි",
-    "romanization": "ēka væḍiyi",
-    "english": "That's too much",
+    "sinhala": "ඒක ගණන් වැඩියි",
+    "romanization": "ēka ganan væḍiyi",
+    "english": "That's too pricy",
     "category": "bargaining",
     "tags": "bargaining,price,expensive",
     "sort_order": 213
-  },
-  {
-    "sinhala": "වට්ටමක් දෙන්න පුළුවන්ද?",
-    "romanization": "vaṭṭamak denna puḷuvanda?",
-    "english": "Can you give a discount?",
-    "category": "bargaining",
-    "tags": "bargaining,discount,question",
-    "sort_order": 214
   },
   {
     "sinhala": "හරි, එකඟයි",
@@ -1936,11 +1904,163 @@
     "sort_order": 242
   },
   {
-    "sinhala": "කොහෙද රිද්දන්නේ?",
-    "romanization": "kohēda riddannē?",
+    "sinhala": "කොහෙද රිදෙන්නේ?",
+    "romanization": "kohēda ridennē?",
     "english": "Where does it hurt?",
     "category": "body parts",
     "tags": "pain,question,bodypart",
     "sort_order": 243
+  },
+  {
+    "sinhala": "සඳුදා",
+    "romanization": "sandudā",
+    "english": "Monday",
+    "category": "days",
+    "tags": "day,week,monday",
+    "sort_order": 244
+  },
+  {
+    "sinhala": "අඟහරුවාදා",
+    "romanization": "angaharuvādā",
+    "english": "Tuesday",
+    "category": "days",
+    "tags": "day,week,tuesday",
+    "sort_order": 245
+  },
+  {
+    "sinhala": "බදාදා",
+    "romanization": "badādā",
+    "english": "Wednesday",
+    "category": "days",
+    "tags": "day,week,wednesday",
+    "sort_order": 246
+  },
+  {
+    "sinhala": "බ්‍රහස්පතින්දා",
+    "romanization": "brahaspatindā",
+    "english": "Thursday",
+    "category": "days",
+    "tags": "day,week,thursday",
+    "sort_order": 247
+  },
+  {
+    "sinhala": "සිකුරාදා",
+    "romanization": "sikurādā",
+    "english": "Friday",
+    "category": "days",
+    "tags": "day,week,friday",
+    "sort_order": 248
+  },
+  {
+    "sinhala": "සෙනසුරාදා",
+    "romanization": "senasurādā",
+    "english": "Saturday",
+    "category": "days",
+    "tags": "day,week,saturday",
+    "sort_order": 249
+  },
+  {
+    "sinhala": "ඉරිදා",
+    "romanization": "iridā",
+    "english": "Sunday",
+    "category": "days",
+    "tags": "day,week,sunday",
+    "sort_order": 250
+  },
+  {
+    "sinhala": "ජනවාරි",
+    "romanization": "janavāri",
+    "english": "January",
+    "category": "months",
+    "tags": "month,january",
+    "sort_order": 251
+  },
+  {
+    "sinhala": "පෙබරවාරි",
+    "romanization": "pebaravāri",
+    "english": "February",
+    "category": "months",
+    "tags": "month,february",
+    "sort_order": 252
+  },
+  {
+    "sinhala": "මාර්තු",
+    "romanization": "mārtu",
+    "english": "March",
+    "category": "months",
+    "tags": "month,march",
+    "sort_order": 253
+  },
+  {
+    "sinhala": "අප්‍රේල්",
+    "romanization": "aprēl",
+    "english": "April",
+    "category": "months",
+    "tags": "month,april",
+    "sort_order": 254
+  },
+  {
+    "sinhala": "මැයි",
+    "romanization": "mæyi",
+    "english": "May",
+    "category": "months",
+    "tags": "month,may",
+    "sort_order": 255
+  },
+  {
+    "sinhala": "ජූනි",
+    "romanization": "jūni",
+    "english": "June",
+    "category": "months",
+    "tags": "month,june",
+    "sort_order": 256
+  },
+  {
+    "sinhala": "ජූලි",
+    "romanization": "jūli",
+    "english": "July",
+    "category": "months",
+    "tags": "month,july",
+    "sort_order": 257
+  },
+  {
+    "sinhala": "අගෝස්තු",
+    "romanization": "agōstu",
+    "english": "August",
+    "category": "months",
+    "tags": "month,august",
+    "sort_order": 258
+  },
+  {
+    "sinhala": "සැප්තැම්බර්",
+    "romanization": "sæptæmbar",
+    "english": "September",
+    "category": "months",
+    "tags": "month,september",
+    "sort_order": 259
+  },
+  {
+    "sinhala": "ඔක්තෝබර්",
+    "romanization": "oktōbar",
+    "english": "October",
+    "category": "months",
+    "tags": "month,october",
+    "sort_order": 260
+  },
+  {
+    "sinhala": "නොවැම්බර්",
+    "romanization": "novæmbar",
+    "english": "November",
+    "category": "months",
+    "tags": "month,november",
+    "sort_order": 261
+  },
+  {
+    "sinhala": "දෙසැම්බර්",
+    "romanization": "desæmbar",
+    "english": "December",
+    "category": "months",
+    "tags": "month,december",
+    "sort_order": 262
   }
 ]
